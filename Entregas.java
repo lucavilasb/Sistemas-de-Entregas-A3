@@ -15,7 +15,7 @@ public class Entregas {
         this.telefone = telefone;
         this.endereco = endereco;
     }
-
+    //
     public int getIdUsuario() {
         return this.idUsuario;
     }
