@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
 public class Restaurantes {
-    int idRestaurante;
+    private int idRestaurante;
     private String nomeRestaurante;
-    String cnpj;
-    String enderecoRestaurante;
-    String telefoneRestaurante;
+    private String cnpj;
+    private String enderecoRestaurante;
+    private String telefoneRestaurante;
     private ArrayList<Pratos> listaPratos = new ArrayList<Pratos>();
 
     public Restaurantes(int idRestaurante, String nomeRestaurante, String cnpj, String enderecoRestaurante, String telefoneRestaurante) {
